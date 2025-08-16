@@ -10,7 +10,7 @@ This repository demonstrates a **Git-based workflow** as part of Task 4 in the D
 
   - **Frontend** → HTML5, CSS3 (modern UI design)
   - **Version Control** → Git + GitHub
-  - **Docs & Screenshots** → Markdown + Images
+  - **Docs & Screenshots** → Markdown + Images 
 
 -----
 
@@ -80,3 +80,4 @@ start index.html  # Windows
   - **Name**: Chetan vani
   - **Internship**: DevOps Internship Task 4
   - **Date**: August 2025
+
