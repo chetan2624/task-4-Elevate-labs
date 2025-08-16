@@ -1,178 +1,82 @@
-﻿# Task 4 – Version-Controlled DevOps Project
+### Project Title
 
-🚀 Task 4 – Version Controlled DevOps Project
-This repository demonstrates a Git-based workflow as part of Task 4 in the DevOps Internship Program.
-It follows an industry-style branching strategy, includes a simple Login Page (HTML + CSS),
-and documents the entire workflow with Pull Requests, Branches, and Tags.
+# 🚀 Task 4 – Version Controlled DevOps Project
 
-📑 Table of Contents
-Project Overview
+This repository demonstrates a **Git-based workflow** as part of Task 4 in the DevOps Internship Program. It follows an **industry-style branching strategy**, includes a simple **Login Page (HTML + CSS)**, and documents the entire workflow with **Pull Requests, Branches, and Tags**.
 
-Branching Strategy
+-----
 
-Tech Stack
+### 🛠 Tech Stack
 
-Project Setup
+  - **Frontend** → HTML5, CSS3 (modern UI design)
+  - **Version Control** → Git + GitHub
+  - **Docs & Screenshots** → Markdown + Images
 
-Workflow Execution
+-----
 
-Pull Requests
+### ⚙️ Project Setup
 
-Release & Tags
+#### 1\. Clone the repository
 
-Screenshots & Documentation
-
-How to Contribute
-
-📌 Project Overview
-The main objective is to simulate a real-world DevOps Git workflow:
-
-Working on a feature branch.
-
-Raising a Pull Request (PR) to merge changes.
-
-Using a dev branch for integration.
-
-Releasing to main with proper tags and documentation.
-
-Feature implemented:
-A modern login UI built with HTML + CSS.
-
-🌿 Branching Strategy
-We used a 3-branch model to maintain clean version control:
-
-main → Stable production-ready branch (only tagged releases live here).
-
-dev → Integration branch, collects features via PRs.
-
-feature/* → Individual work branches (e.g., feature/login, feature/docs).
-
-Example flow:
-
-feature/login ─┐
-               │
-feature/docs  ─┼─> dev ──> main (release)
-               │
-feature/readme ┘
-
-🛠 Tech Stack
-Frontend → HTML5, CSS3 (modern UI design)
-
-Version Control → Git + GitHub
-
-Docs & Screenshots → Markdown + Images
-
-⚙️ Project Setup
-Clone the repo:
-
+```bash
 git clone <repo-url>
 cd task-4-<repo>
+```
 
-Open index.html in any browser:
+#### 2\. Open the login page
 
+```bash
 open index.html   # Mac/Linux
 start index.html  # Windows
+```
 
-📂 Workflow Execution
-✅ Step 1 – Repository Initialization
+-----
 
-Created repo with .gitignore and README.md.
-✅ Step 2 – Branch Creation
+### 📂 Workflow Execution
 
-main (default)
+#### 1\. Repository Initialization
 
-dev (integration branch)
+✅ Created repo with `.gitignore` and `README.md`.
 
-feature/login (for login UI work)
-✅ Step 3 – Feature Development
+#### 2\. Branch Creation
 
-Added index.html and style.css.
+✅ `main` (default), `dev` (integration), and `feature/login` (for login UI work) branches were created.
 
-Pushed commits to feature/login.
-✅ Step 4 – Pull Request
+#### 3\. Feature Development
 
-Opened PR: feature/login → dev.
+✅ Added `index.html` and `style.css`.
+✅ Pushed commits to `feature/login`.
 
-Added PR description and self-reviewed.
+#### 4\. Pull Request
 
-Squash merged to dev.
-✅ Step 5 – Documentation & Cleanup
+✅ Opened PR: `feature/login` → `dev`.
+✅ Added PR description and self-reviewed.
+✅ Squash merged to `dev`.
 
-Added docs/TASK-4.md and screenshots folder.
+#### 5\. Documentation & Cleanup
 
-Improved .gitignore and README.md.
-✅ Step 6 – Release
+✅ Added `docs/TASK-4.md` and `screenshots` folder.
+✅ Improved `.gitignore` and `README.md`.
 
-Opened PR: dev → main.
+#### 6\. Release
 
-Squash merged.
+✅ Opened PR: `dev` → `main`.
+✅ Squash merged.
+✅ Tagged release `v0.1.0`.
 
-Tagged release v0.1.0.
+-----
 
-🔀 Pull Requests
-We used multiple PRs to simulate collaboration:
+### 📚 What We Learned
 
-feature/login → dev
+  - How to structure a project with a proper Git branching workflow (`main`, `dev`, `feature/*`).
+  - The use of Pull Requests to manage and merge features.
+  - Creating release tags for stable versions.
+  - Documenting project execution with Markdown and screenshots.
 
-Added login UI (HTML + CSS).
+-----
 
-feature/docs-and-screens → dev
+### 🙌 Author
 
-Added documentation (TASK-4.md) + screenshots.
-
-feature/readme-and-ignore → dev
-
-Updated .gitignore and improved README.md.
-
-dev → main (release)
-
-Merged all changes into main with release notes.
-
-🏷 Release & Tags
-First release: v0.1.0
-Notes:
-
-Login Page (HTML + CSS)
-
-Docs & Screenshots
-
-Updated README & .gitignore
-Check under GitHub Releases.
-
-🖼 Screenshots & Documentation
-All screenshots and detailed logs are stored in:
-
-docs/
- ├── TASK-4.md
- └── screenshots/
-      ├── pr-feature-login.png
-      ├── pr-dev-to-main.png
-      └── tag-v0.1.0.png
-
-🤝 How to Contribute
-Fork this repo.
-
-Create a new branch (feature/your-feature).
-
-Commit your changes.
-
-Open a PR into dev.
-
-Wait for review and merge.
-
-✅ Summary
-This project demonstrates:
-
-Proper Git branching workflow (main, dev, feature/*).
-
-Use of Pull Requests to merge features.
-
-Creating release tags for stable versions.
-
-Documenting execution with Markdown & screenshots.
-
-It’s a mini-industry simulation of how DevOps teams collaborate in real projects.
-
-⚡ Pro tip: Add badges (like build status, license, or GitHub stars) if you want to make it look even more professional.
-
-Do you want me to also prepare a matching docs/TASK-4.md file (detailed execution log with checklists + screenshots placeholders), so your repo looks perfectly complete for review?
+  - **Name**: Chetan vani
+  - **Internship**: DevOps Internship Task 4
+  - **Date**: August 2025
